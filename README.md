@@ -90,9 +90,12 @@ The application will deploy the process model during startup
 
 You can easily use the application by requesting a new customer onboarding posting a PUT REST request to 
 
-`curl -X PUT http://localhost:8080/customer`
+```bash
+curl -X PUT http://localhost:8080/customer
+```
 
 You can now see the process instance in Camunda Operate - linked via the Cloud Console.
 
 You can work on the user task using Camunda Tasklist, also linked via the Cloud Console.
 
+You can use browser:`http://localhost:8080`
